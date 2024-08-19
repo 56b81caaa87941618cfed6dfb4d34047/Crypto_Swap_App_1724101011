@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "replace with uniswap style component with choices for popular tokens",
+        "message_id": "guest19082024205831",
+        "timestamp": "19082024205832",
+        "component_file_name": "simple_footer_component_1724101013",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the token selection component to offer a search functionality so users can find tokens not immediately visible?\", \"option1\": \"Yes, include a search bar within the token selection component.\", \"option2\": \"No, just display a predefined list of popular tokens without search functionality.\"}, {\"question 2\": \"Should the component automatically update the list of popular tokens based on market trends, or would you prefer to manually configure the list?\", \"option1\": \"Yes, automatically update the list based on market trends.\", \"option2\": \"No, I will manually configure and update the list of popular tokens.\"}], \"input_token_count\": 262, \"output_token_count\": 137, \"time_taken\": \"0:00:05.168307\"}",
         "message_id": "guest19082024205735",
