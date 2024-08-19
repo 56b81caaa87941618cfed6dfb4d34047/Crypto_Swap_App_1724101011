@@ -54,5 +54,11 @@
         "content": "Noted, I'll work on replacing the content with a Uniswap style component featuring popular token choices.",
         "timestamp": "19082024205850",
         "message_id": "guest19082024205850"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you want the user interface for token selection to exactly mirror Uniswap's current design or should we incorporate unique design elements to stand out?\", \"option1\": \"Mirror Uniswap's current design exactly\", \"option2\": \"Incorporate unique design elements\"}, {\"question 2\": \"Should the popular tokens list be dynamically updated based on market trends or remain static as defined at the time of deployment?\", \"option1\": \"Dynamically updated based on market trends\", \"option2\": \"Static as defined at the time of deployment\"}], \"input_token_count\": 355, \"output_token_count\": 126, \"time_taken\": \"0:00:03.679653\"}",
+        "timestamp": "19082024205854",
+        "message_id": "guest19082024205850"
     }
 ]
