@@ -1,8 +1,8 @@
 Vue.component("simple_footer_component_1724101013", {
     template: `
-    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+    <div class="bg-purple-100 bg-opacity-20 backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-lg">
         <div class="grid grid-cols-4 gap-4 mb-4">
-            <div class="bg-white dark:bg-gray-700 p-4 rounded-md shadow-sm">
+            <div class="bg-purple-200 bg-opacity-30 backdrop-filter backdrop-blur-md p-4 rounded-md shadow-md">
                 <h3 class="text-lg font-semibold text-black dark:text-white mb-2">Sell</h3>
                 <div class="mb-2">
                     <label for="sell-amount" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Amount</label>
@@ -18,7 +18,7 @@ Vue.component("simple_footer_component_1724101013", {
                     </select>
                 </div>
             </div>
-            <div class="bg-white dark:bg-gray-700 p-4 rounded-md shadow-sm">
+            <div class="bg-purple-200 bg-opacity-30 backdrop-filter backdrop-blur-md p-4 rounded-md shadow-md">
                 <h3 class="text-lg font-semibold text-black dark:text-white mb-2">Buy</h3>
                 <div class="mb-2">
                     <label for="buy-amount" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Amount</label>
@@ -34,7 +34,7 @@ Vue.component("simple_footer_component_1724101013", {
                     </select>
                 </div>
             </div>
-            <div class="bg-white dark:bg-gray-700 p-4 rounded-md shadow-sm">
+            <div class="bg-purple-200 bg-opacity-30 backdrop-filter backdrop-blur-md p-4 rounded-md shadow-md">
                 <h3 class="text-lg font-semibold text-black dark:text-white mb-2">Lending</h3>
                 <div class="mb-2">
                     <label for="lending-amount" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Amount</label>
@@ -59,7 +59,7 @@ Vue.component("simple_footer_component_1724101013", {
                     </select>
                 </div>
             </div>
-            <div class="bg-white dark:bg-gray-700 p-4 rounded-md shadow-sm">
+            <div class="bg-purple-200 bg-opacity-30 backdrop-filter backdrop-blur-md p-4 rounded-md shadow-md">
                 <h3 class="text-lg font-semibold text-black dark:text-white mb-2">Lending Options</h3>
                 <div class="mb-2">
                     <label for="lending-rate" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Interest Rate</label>
@@ -83,7 +83,7 @@ Vue.component("simple_footer_component_1724101013", {
                 </div>
             </div>
         </div>
-        <button class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-md transition-colors duration-200">
+        <button class="w-full bg-purple-600 bg-opacity-80 hover:bg-purple-700 hover:bg-opacity-90 text-white font-bold py-2 px-4 rounded-md transition-colors duration-200 backdrop-filter backdrop-blur-sm">
             Swap / Lend
         </button>
     </div>
