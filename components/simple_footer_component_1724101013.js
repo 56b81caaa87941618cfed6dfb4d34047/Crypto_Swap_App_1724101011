@@ -1,30 +1,42 @@
-/* Summary: This component contains the app's logo and name in a large, bold font. They're both in the same line. And then a line of text underneath it. Both of these lines are center aligned.
-*/
 Vue.component("simple_footer_component_1724101013", {
     template: `
-    <footer id="footer-section" class="flex-1 bg-white dark:bg-gray-800">
-            <div id="footer-container" class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-                <hr id="footer-divider" class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
-                <div id="footer-content" class="text-center">
-                    <div class="flex">
-                        <a id="footer-logo-link" href="#" class="flex-1 flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
-                            <img id="footer-logo" src="./images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
-                            SwapWave
-                        </a>
-                    </div>
-                </div>
-                <div class="flex">
-                    <div id="footer-text" class="flex-1 block text-sm text-center text-gray-500 dark:text-gray-400">
-                        © 2023 SwapWave. All rights reserved. Trade responsibly. Cryptocurrency trading involves risks.
-                    </div>
-                </div>
+    <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md">
+        <div class="mb-4">
+            <h2 class="text-xl font-bold text-gray-800 dark:text-white mb-2">Select Token</h2>
+            <div class="grid grid-cols-4 gap-4">
+                <button class="bg-white dark:bg-gray-700 p-3 rounded-md shadow-sm hover:shadow-md transition-shadow duration-200 flex items-center justify-center">
+                    <img src="./images/eth.svg" alt="ETH" class="w-6 h-6 mr-2">
+                    <span class="text-gray-800 dark:text-white">ETH</span>
+                </button>
+                <button class="bg-white dark:bg-gray-700 p-3 rounded-md shadow-sm hover:shadow-md transition-shadow duration-200 flex items-center justify-center">
+                    <img src="./images/btc.svg" alt="BTC" class="w-6 h-6 mr-2">
+                    <span class="text-gray-800 dark:text-white">BTC</span>
+                </button>
+                <button class="bg-white dark:bg-gray-700 p-3 rounded-md shadow-sm hover:shadow-md transition-shadow duration-200 flex items-center justify-center">
+                    <img src="./images/usdt.svg" alt="USDT" class="w-6 h-6 mr-2">
+                    <span class="text-gray-800 dark:text-white">USDT</span>
+                </button>
+                <button class="bg-white dark:bg-gray-700 p-3 rounded-md shadow-sm hover:shadow-md transition-shadow duration-200 flex items-center justify-center">
+                    <img src="./images/dai.svg" alt="DAI" class="w-6 h-6 mr-2">
+                    <span class="text-gray-800 dark:text-white">DAI</span>
+                </button>
             </div>
-        </footer> 
+        </div>
+        <div class="mb-4">
+            <label for="token-amount" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Amount</label>
+            <input type="number" id="token-amount" class="w-full p-2 border border-gray-300 dark:border-gray-600 rounded-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:text-white" placeholder="0.0">
+        </div>
+        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition-colors duration-200">
+            Swap
+        </button>
+    </div>
     `,
     data() {
         return {
-            expanded: false,
-            tab: null,
+            // Add any necessary data properties here
         };
+    },
+    methods: {
+        // Add any necessary methods here
     },
 });
