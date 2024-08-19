@@ -1,30 +1,39 @@
 Vue.component("simple_footer_component_1724101013", {
     template: `
     <div class="bg-purple-100 dark:bg-gray-800 p-6 rounded-lg shadow-md">
-        <div class="mb-4">
-            <h2 class="text-xl font-bold text-purple-800 dark:text-white mb-2">Select Token</h2>
-            <div class="grid grid-cols-4 gap-4">
-                <button class="bg-white dark:bg-gray-700 p-3 rounded-md shadow-sm hover:shadow-md transition-shadow duration-200 flex items-center justify-center">
-                    <img src="./images/eth.svg" alt="ETH" class="w-6 h-6 mr-2">
-                    <span class="text-purple-800 dark:text-white">ETH</span>
-                </button>
-                <button class="bg-white dark:bg-gray-700 p-3 rounded-md shadow-sm hover:shadow-md transition-shadow duration-200 flex items-center justify-center">
-                    <img src="./images/btc.svg" alt="BTC" class="w-6 h-6 mr-2">
-                    <span class="text-purple-800 dark:text-white">BTC</span>
-                </button>
-                <button class="bg-white dark:bg-gray-700 p-3 rounded-md shadow-sm hover:shadow-md transition-shadow duration-200 flex items-center justify-center">
-                    <img src="./images/usdt.svg" alt="USDT" class="w-6 h-6 mr-2">
-                    <span class="text-purple-800 dark:text-white">USDT</span>
-                </button>
-                <button class="bg-white dark:bg-gray-700 p-3 rounded-md shadow-sm hover:shadow-md transition-shadow duration-200 flex items-center justify-center">
-                    <img src="./images/dai.svg" alt="DAI" class="w-6 h-6 mr-2">
-                    <span class="text-purple-800 dark:text-white">DAI</span>
-                </button>
+        <div class="grid grid-cols-2 gap-4 mb-4">
+            <div class="bg-white dark:bg-gray-700 p-4 rounded-md shadow-sm">
+                <h3 class="text-lg font-semibold text-purple-800 dark:text-white mb-2">Sell</h3>
+                <div class="mb-2">
+                    <label for="sell-amount" class="block text-sm font-medium text-purple-700 dark:text-gray-300 mb-1">Amount</label>
+                    <input type="number" id="sell-amount" class="w-full p-2 border border-purple-300 dark:border-gray-600 rounded-md focus:ring-purple-500 focus:border-purple-500 dark:bg-gray-700 dark:text-white" placeholder="0.0">
+                </div>
+                <div>
+                    <label for="sell-token" class="block text-sm font-medium text-purple-700 dark:text-gray-300 mb-1">Token</label>
+                    <select id="sell-token" class="w-full p-2 border border-purple-300 dark:border-gray-600 rounded-md focus:ring-purple-500 focus:border-purple-500 dark:bg-gray-700 dark:text-white">
+                        <option value="eth">ETH</option>
+                        <option value="btc">BTC</option>
+                        <option value="usdt">USDT</option>
+                        <option value="dai">DAI</option>
+                    </select>
+                </div>
             </div>
-        </div>
-        <div class="mb-4">
-            <label for="token-amount" class="block text-sm font-medium text-purple-700 dark:text-gray-300 mb-1">Amount</label>
-            <input type="number" id="token-amount" class="w-full p-2 border border-purple-300 dark:border-gray-600 rounded-md focus:ring-purple-500 focus:border-purple-500 dark:bg-gray-700 dark:text-white" placeholder="0.0">
+            <div class="bg-white dark:bg-gray-700 p-4 rounded-md shadow-sm">
+                <h3 class="text-lg font-semibold text-purple-800 dark:text-white mb-2">Buy</h3>
+                <div class="mb-2">
+                    <label for="buy-amount" class="block text-sm font-medium text-purple-700 dark:text-gray-300 mb-1">Amount</label>
+                    <input type="number" id="buy-amount" class="w-full p-2 border border-purple-300 dark:border-gray-600 rounded-md focus:ring-purple-500 focus:border-purple-500 dark:bg-gray-700 dark:text-white" placeholder="0.0">
+                </div>
+                <div>
+                    <label for="buy-token" class="block text-sm font-medium text-purple-700 dark:text-gray-300 mb-1">Token</label>
+                    <select id="buy-token" class="w-full p-2 border border-purple-300 dark:border-gray-600 rounded-md focus:ring-purple-500 focus:border-purple-500 dark:bg-gray-700 dark:text-white">
+                        <option value="eth">ETH</option>
+                        <option value="btc">BTC</option>
+                        <option value="usdt">USDT</option>
+                        <option value="dai">DAI</option>
+                    </select>
+                </div>
+            </div>
         </div>
         <button class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-md transition-colors duration-200">
             Swap
