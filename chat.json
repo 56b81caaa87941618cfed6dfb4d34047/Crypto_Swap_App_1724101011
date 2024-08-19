@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Live price feed for selected cryptocurrencies\", \"checked\": true}, {\"feature\": \"Custom token addition by contract address\", \"checked\": false}, {\"feature\": \"Price impact warning for large trades\", \"checked\": true}, {\"feature\": \"Favorite tokens list for quick access\", \"checked\": false}, {\"feature\": \"Real-time gas fee estimator\", \"checked\": true}, {\"feature\": \"Swap history with detailed transaction insights\", \"checked\": false}], \"input_token_count\": 216, \"output_token_count\": 96, \"time_taken\": \"0:00:03.972741\"}",
+        "message_id": "guest19082024205735",
+        "timestamp": "19082024205739",
+        "component_file_name": "simple_cta_component_1724101013",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it, I'll add a Uniswap-style component with popular tokens.",
         "message_id": "guest19082024205735",
