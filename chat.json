@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Definitely, I'm creating a Uniswap-style sell and buy form with popular token dropdowns.",
+        "message_id": "guest19082024205942",
+        "timestamp": "19082024205943",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "make it uniswap-style with a sell and buy form with dropdowns with placeholder popular tokens",
         "message_id": "guest19082024205942",
