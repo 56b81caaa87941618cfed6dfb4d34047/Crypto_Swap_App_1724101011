@@ -36,5 +36,11 @@
         "content": "replace with uniswap style component with choices for popular tokens",
         "timestamp": "19082024205832",
         "message_id": "guest19082024205831"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Got it, adding choices for popular tokens in Uniswap style component.",
+        "timestamp": "19082024205832",
+        "message_id": "guest19082024205831"
     }
 ]
