@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "replace all this content with uniswap style component with choices for popular tokens",
+        "message_id": "guest19082024205850",
+        "timestamp": "19082024205850",
+        "component_file_name": "simple_footer_component_1724101013",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it, adding choices for popular tokens in Uniswap style component.",
         "message_id": "guest19082024205831",
