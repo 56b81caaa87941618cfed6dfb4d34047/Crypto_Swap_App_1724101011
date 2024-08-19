@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Noted, we are developing another component that includes lending options.",
+        "message_id": "guest19082024210053",
+        "timestamp": "19082024210054",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add another component with lending options",
         "message_id": "guest19082024210053",
