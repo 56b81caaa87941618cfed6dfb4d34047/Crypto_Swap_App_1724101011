@@ -14,5 +14,9 @@
     {
         "level": 1,
         "task_description": "make it uniswap-style with a sell and buy form with dropdowns with placeholder popular tokens"
+    },
+    {
+        "level": 1,
+        "task_description": "make it uniswap-style with a sell and buy form with dropdowns with placeholder popular tokens"
     }
 ]
