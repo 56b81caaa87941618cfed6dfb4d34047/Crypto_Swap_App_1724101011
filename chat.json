@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the buy and sell forms, would you prefer a simple, intuitive design focused on usability for new users, or a more complex form with additional options for experienced traders?\", \"option1\": \"Simple and intuitive\", \"option2\": \"Complex with additional options\"}, {\"question 2\": \"When you mention 'placeholder popular tokens,' do you want these to be hardcoded based on current popular tokens, or dynamically updated based on market trends?\", \"option1\": \"Hardcoded popular tokens\", \"option2\": \"Dynamically updated based on market trends\"}], \"input_token_count\": 269, \"output_token_count\": 126, \"time_taken\": \"0:00:05.536167\"}",
+        "message_id": "guest19082024205942",
+        "timestamp": "19082024205949",
+        "component_file_name": "simple_footer_component_1724101013",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time price charts for selected cryptocurrencies\", \"checked\": true}, {\"feature\": \"Transaction history tab showing past buy/sell operations\", \"checked\": false}, {\"feature\": \"Token search with autocomplete functionality for ease of finding tokens\", \"checked\": true}, {\"feature\": \"Price alert notifications for favorite tokens\", \"checked\": false}, {\"feature\": \"A 'Favorites' section to quickly access frequently traded tokens\", \"checked\": true}, {\"feature\": \"Integration with wallet apps for seamless transactions\", \"checked\": false}], \"input_token_count\": 223, \"output_token_count\": 111, \"time_taken\": \"0:00:05.108074\"}",
         "message_id": "guest19082024205942",
