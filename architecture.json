@@ -26,5 +26,9 @@
     {
         "level": 1,
         "task_description": "add another component with lending options"
+    },
+    {
+        "level": 1,
+        "task_description": "add glassmorphism styles with purple shades"
     }
 ]
