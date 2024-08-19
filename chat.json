@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Got it, incorporating glassmorphism styles with purple shades.",
+        "message_id": "guest19082024210204",
+        "timestamp": "19082024210204",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add glassmorphism styles with purple shades",
         "message_id": "guest19082024210204",
