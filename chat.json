@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Implement advanced filtering options for searching specific tokens by name, symbol, or blockchain\", \"checked\": false}, {\"feature\": \"Add a 'Favorites' section where users can pin their most traded or monitored tokens for quick access\", \"checked\": false}, {\"feature\": \"Incorporate a price chart next to each token choice for immediate price trend visualization\", \"checked\": false}, {\"feature\": \"Implement a 'Swap History' section where users can view their past transactions and statuses\", \"checked\": true}, {\"feature\": \"Add tooltips and help icons next to each token for providing additional information about the token on hover or click\", \"checked\": true}, {\"feature\": \"Include a comparison feature that allows users to compare the performance of two or more tokens side by side\", \"checked\": false}], \"input_token_count\": 309, \"output_token_count\": 178, \"time_taken\": \"0:00:05.265764\"}",
+        "message_id": "guest19082024205850",
+        "timestamp": "19082024205856",
+        "component_file_name": "simple_footer_component_1724101013",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you want the user interface for token selection to exactly mirror Uniswap's current design or should we incorporate unique design elements to stand out?\", \"option1\": \"Mirror Uniswap's current design exactly\", \"option2\": \"Incorporate unique design elements\"}, {\"question 2\": \"Should the popular tokens list be dynamically updated based on market trends or remain static as defined at the time of deployment?\", \"option1\": \"Dynamically updated based on market trends\", \"option2\": \"Static as defined at the time of deployment\"}], \"input_token_count\": 355, \"output_token_count\": 126, \"time_taken\": \"0:00:03.679653\"}",
         "message_id": "guest19082024205850",
