@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the lending options to be integrated as a separate section within the app or as a feature accessible through the existing dashboard?\", \"option1\": \"Separate section\", \"option2\": \"Accessible through existing dashboard\"}, {\"question 2\": \"Should the lending feature support multiple cryptocurrencies, or would you prefer to start with a single currency and expand later?\", \"option1\": \"Support multiple cryptocurrencies\", \"option2\": \"Start with a single currency and expand later\"}], \"input_token_count\": 256, \"output_token_count\": 110, \"time_taken\": \"0:00:04.531860\"}",
+        "message_id": "guest19082024210053",
+        "timestamp": "19082024210058",
+        "component_file_name": "simple_footer_component_1724101013",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Noted, we are developing another component that includes lending options.",
         "message_id": "guest19082024210053",
