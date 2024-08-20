@@ -31,8 +31,6 @@ Vue.component("simple_header_component_1724101013", {
                 </div>
             </div>
         </nav>
-    </header>
-<body>
 <section class="bg-purple-100 py-20">
         <div class="max-w-screen-xl mx-auto px-4">
             <div class="text-center mb-10">
@@ -52,6 +50,7 @@ Vue.component("simple_header_component_1724101013", {
             </form>
         </div>
     </section>
+    </header>
 </body>
     `,
     data() {
