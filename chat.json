@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the hero section's form to be fully centered on the page or aligned towards a specific side?\", \"option1\": \"Fully centered\", \"option2\": \"Aligned to a specific side\"}, {\"question 2\": \"For the newsletter subscription form, should we include any specific call-to-action (CTA) button text?\", \"option1\": \"Yes, include 'Subscribe Now'\", \"option2\": \"Yes, include 'Join Us'\"}], \"input_token_count\": 575, \"output_token_count\": 107, \"time_taken\": \"0:00:03.572132\"}",
+        "message_id": "guest20082024173413",
+        "timestamp": "20082024173417",
+        "component_file_name": "simple_header_component_1724101013",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Great, I will add a hero section below top nav bar with a beautiful, tailwind-designed big form for adding email and address to a newsletter in purple theme.",
         "message_id": "guest20082024173413",
