@@ -51,7 +51,6 @@ Vue.component("simple_header_component_1724101013", {
         </div>
     </section>
     </header>
-</body>
     `,
     data() {
         return {
