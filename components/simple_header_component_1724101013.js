@@ -32,7 +32,8 @@ Vue.component("simple_header_component_1724101013", {
             </div>
         </nav>
     </header>
-    <section class="bg-purple-100 py-20">
+<body>
+<section class="bg-purple-100 py-20">
         <div class="max-w-screen-xl mx-auto px-4">
             <div class="text-center mb-10">
                 <h2 class="text-4xl font-bold text-purple-800 mb-4">Join Our Newsletter</h2>
@@ -50,7 +51,9 @@ Vue.component("simple_header_component_1724101013", {
                 <button type="submit" class="w-full bg-purple-600 text-white py-3 px-6 rounded-md hover:bg-purple-700 transition duration-300 ease-in-out">Subscribe Now</button>
             </form>
         </div>
-    </section>`,
+    </section>
+</body>
+    `,
     data() {
         return {
             expanded: false,
