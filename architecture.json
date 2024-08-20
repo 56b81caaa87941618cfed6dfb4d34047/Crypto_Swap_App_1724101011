@@ -34,5 +34,9 @@
     {
         "level": 1,
         "task_description": "add glassmorphism styles with purple shades"
+    },
+    {
+        "level": 1,
+        "task_description": "add a hero section below the top nav bar with a big form for adding your email and address to a newsletter. make it beautiful with tailwind (purple theme)"
     }
 ]
