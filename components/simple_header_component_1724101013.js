@@ -31,7 +31,26 @@ Vue.component("simple_header_component_1724101013", {
                 </div>
             </div>
         </nav>
-    </header>`,
+    </header>
+    <section class="bg-purple-100 py-20">
+        <div class="max-w-screen-xl mx-auto px-4">
+            <div class="text-center mb-10">
+                <h2 class="text-4xl font-bold text-purple-800 mb-4">Join Our Newsletter</h2>
+                <p class="text-xl text-purple-600">Stay updated with the latest crypto news and trends!</p>
+            </div>
+            <form class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <div class="mb-6">
+                    <label for="email" class="block mb-2 text-sm font-medium text-purple-700">Email Address</label>
+                    <input type="email" id="email" class="w-full px-4 py-3 border border-purple-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-6">
+                    <label for="address" class="block mb-2 text-sm font-medium text-purple-700">Physical Address</label>
+                    <input type="text" id="address" class="w-full px-4 py-3 border border-purple-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Enter your address" required>
+                </div>
+                <button type="submit" class="w-full bg-purple-600 text-white py-3 px-6 rounded-md hover:bg-purple-700 transition duration-300 ease-in-out">Subscribe Now</button>
+            </form>
+        </div>
+    </section>`,
     data() {
         return {
             expanded: false,
