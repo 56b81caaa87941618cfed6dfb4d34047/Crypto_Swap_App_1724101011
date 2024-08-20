@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Addition of a dynamic and interactive chart to display real-time crypto market trends, enhancing user engagement.\", \"checked\": true}, {\"feature\": \"Integration of a live chat support system for immediate assistance and queries related to crypto swapping.\", \"checked\": false}, {\"feature\": \"Implementation of a customizable dashboard for users to track their favorite cryptocurrencies and swapping history.\", \"checked\": true}, {\"feature\": \"Inclusion of advanced security features, like 2FA authentication, to ensure user accounts are secure during swapping.\", \"checked\": false}, {\"feature\": \"Creation of a referral system where users can invite friends and earn crypto rewards, promoting app usage.\", \"checked\": true}, {\"feature\": \"Development of a dark mode option to reduce eye strain and improve visibility in low light conditions.\", \"checked\": false}], \"input_token_count\": 237, \"output_token_count\": 167, \"time_taken\": \"0:00:06.414260\"}",
+        "message_id": "guest20082024172905",
+        "timestamp": "20082024172913",
+        "component_file_name": "simple_header_component_1724101013",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you prefer the hero section background to be a solid color or a gradient?\", \"option1\": \"Solid purple background\", \"option2\": \"Gradient with different shades of purple\"}, {\"question 2\": \"For the 'submit' button on the form, do you have a preference between a minimalist design or something more attention-grabbing?\", \"option1\": \"Minimalist design\", \"option2\": \"Attention-grabbing design with animation\"}], \"input_token_count\": 283, \"output_token_count\": 106, \"time_taken\": \"0:00:03.478340\"}",
         "message_id": "guest20082024172905",
