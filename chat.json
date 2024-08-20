@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the newsletter form, would you like to include more fields besides email and address, or keep it simple?\", \"option1\": \"Include more fields for comprehensive user information.\", \"option2\": \"Keep it simple with just email and address.\"}, {\"question 2\": \"How do you envision the submission confirmation for the newsletter form? Should it be an inline message below the form or a modal popup?\", \"option1\": \"Use an inline confirmation message below the form.\", \"option2\": \"Show a modal popup confirmation.\"}], \"input_token_count\": 672, \"output_token_count\": 120, \"time_taken\": \"0:00:05.009787\"}",
+        "message_id": "guest20082024174513",
+        "timestamp": "20082024174519",
+        "component_file_name": "simple_cta_component_1724101013",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Thanks for the task! Working on adding the hero section and newsletter form using Tailwind (purple theme).",
         "message_id": "guest20082024174513",
