@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you prefer the hero section background to be a solid color or a gradient?\", \"option1\": \"Solid purple background\", \"option2\": \"Gradient with different shades of purple\"}, {\"question 2\": \"For the 'submit' button on the form, do you have a preference between a minimalist design or something more attention-grabbing?\", \"option1\": \"Minimalist design\", \"option2\": \"Attention-grabbing design with animation\"}], \"input_token_count\": 283, \"output_token_count\": 106, \"time_taken\": \"0:00:03.478340\"}",
+        "message_id": "guest20082024172905",
+        "timestamp": "20082024172910",
+        "component_file_name": "simple_header_component_1724101013",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Understood, implementing hero section with newsletter form using Tailwind's purple theme.",
         "message_id": "guest20082024172905",
